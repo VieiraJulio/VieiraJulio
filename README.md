@@ -2,7 +2,7 @@
 
   Chemical Engineering student with a passion for technology. 
   
-  I'm both a DataScientist and a DataAnalyst, with expertise in Python, SQL and Power BI.
+  I'm both a DataScientist and a DataAnalyst.
 
 
 ### Tools and Technologies:
