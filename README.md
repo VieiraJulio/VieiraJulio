@@ -14,7 +14,13 @@
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 
+### My contributions 🐍
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VieiraJulio/VieiraJulio/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VieiraJulio/VieiraJulio/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/VieiraJulio/VieiraJulio/output/github-snake.svg" />
+</picture>
   
 ### Get in touch:
 
