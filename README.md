@@ -3,8 +3,6 @@
 **Senior Data Analyst** at Grupo Inova Agro | John Deere, working across **Data Engineering**, **Data Analysis**, **Data Science** and **AI** with the Microsoft data stack.
 I work across the whole data lifecycle: from ingestion and modeling to analysis and machine learning. Chemical Engineering student, driven by technology and by turning data into decisions.
 
-📍 Belo Horizonte, MG, Brazil
-
 ---
 
 <details>
