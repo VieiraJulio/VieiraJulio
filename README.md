@@ -119,23 +119,6 @@ I work across the whole data lifecycle: from ingestion and modeling to analysis 
 
 ---
 
-### 📈 GitHub stats
-
-<table>
-  <tr>
-    <td valign="middle">
-      <img alt="GitHub metrics" src="github-metrics.svg" />
-    </td>
-    <td valign="middle">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VieiraJulio&layout=donut-vertical&langs_count=6&theme=github_dark&hide_border=true" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VieiraJulio&layout=donut-vertical&langs_count=6&hide_border=true" />
-        <img alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VieiraJulio&layout=donut-vertical&langs_count=6&hide_border=true" />
-      </picture>
-    </td>
-  </tr>
-</table>
-
 ### 🐍 My contributions
 
 <picture>
