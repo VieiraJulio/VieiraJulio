@@ -119,14 +119,6 @@ I work across the whole data lifecycle: from ingestion and modeling to analysis 
 
 ---
 
-### 📈 GitHub metrics
-
-<p align="center">
-  <img src="metrics/metrics.languages.svg" alt="GitHub metrics" />
-</p>
-
----
-
 ### 🐍 My contributions
 
 <picture>
@@ -134,3 +126,11 @@ I work across the whole data lifecycle: from ingestion and modeling to analysis 
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VieiraJulio/VieiraJulio/output/github-snake.svg" />
   <img alt="Snake animation" src="https://raw.githubusercontent.com/VieiraJulio/VieiraJulio/output/github-snake.svg" />
 </picture>
+
+---
+
+### 📈 GitHub metrics
+
+<p align="center">
+  <img src="metrics/metrics.languages.svg" alt="GitHub metrics" />
+</p>
