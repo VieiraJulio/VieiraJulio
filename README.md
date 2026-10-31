@@ -121,12 +121,9 @@ I work across the whole data lifecycle: from ingestion and modeling to analysis 
 
 ### 📈 GitHub metrics
 
-<table>
-  <tr>
-    <td><img src="metrics/metrics.overview.svg" alt="GitHub metrics overview" /></td>
-    <td valign="middle"><img src="metrics/metrics.languages.svg" alt="Most used languages" /></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="metrics/metrics.languages.svg" alt="GitHub metrics" />
+</p>
 
 ---
 
