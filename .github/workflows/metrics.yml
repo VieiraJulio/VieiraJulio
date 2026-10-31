@@ -34,5 +34,5 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_limit: 6
-          plugin_languages_ignored: jupyter notebook   # notebooks inflam o tamanho e escondem o resto
+          plugin_languages_aliases: jupyter notebook:Python   # soma os notebooks (.ipynb) ao Python
           plugin_languages_threshold: 0%
