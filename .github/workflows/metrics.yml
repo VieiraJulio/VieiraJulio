@@ -1,0 +1,50 @@
+name: Generate GitHub metrics
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # roda a cada 12 horas
+  workflow_dispatch:          # permite rodar manualmente
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/metrics.yml   # regera quando a configuração mudar
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+
+    steps:
+      # Card 1 — visão geral: atividade, comunidade e repositórios
+      - name: Overview card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.overview.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename} [skip ci]"
+          user: VieiraJulio
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
+
+      # Card 2 — linguagens mais usadas
+      - name: Languages card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "chore: update ${filename} [skip ci]"
+          user: VieiraJulio
+          template: classic
+          base: header
+          config_timezone: America/Sao_Paulo
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
